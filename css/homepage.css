@@ -3,6 +3,22 @@ body{
     margin: 0;
 }
 
+@font-face {
+    font-family: 'Comic Sans MS';
+    src: url("../fonts/COMIC.TTF");
+}
+
+@font-face {
+    font-family: Verdana;
+    src: url("../fonts/verdana.ttf");
+}
+
+@font-face {
+    font-family: Verdana;
+    src: url("../fonts/verdanab.ttf");
+    font-weight: bold;
+}
+
 .body-main{
     position: relative;
     width: 100%;
