@@ -62,7 +62,7 @@ nav ul {
     padding: 0;
 }
 
-nav a {
+nav li {
     display: inherit;
     padding-left: 15px;
     padding-right: 15px;
@@ -70,14 +70,15 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover{
+nav li:hover{
     background-color:#dd6464;
 }
 
 
 
-nav li {
+nav a {
     color: white;
+    text-decoration: none;
     font-weight: bold;
     font-size: 25px;
     text-shadow:
