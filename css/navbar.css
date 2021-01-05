@@ -41,10 +41,9 @@ nav ul {
 
 nav li {
     display: flex;
-    padding-left: 15px;
-    padding-right: 15px;
     align-items: center;
     text-decoration: none;
+    margin: 0;
 }
 
 nav li:hover{
@@ -57,10 +56,41 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
     /* for text border */
     text-shadow:
 		-1px -1px 0 #000,
 		1px -1px 0 #000,
 		-1px 1px 0 #000,
 		1px 1px 0 #000;
+}
+
+.nav-content{
+    position: absolute;
+    top: 80px;
+    overflow: hidden;
+    background-color: #f76c6c;
+    flex-direction: column;
+    max-height: 0;
+}
+
+#project-sub {
+    flex-direction: column;
+}
+
+.nav-content a {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav-content a:hover {
+    text-decoration: underline;
+}
+
+
+.nav-item:focus ~ .nav-content{
+    max-height: 400px;
+    transition: max-height 0.2s ease-in-out;
 }
