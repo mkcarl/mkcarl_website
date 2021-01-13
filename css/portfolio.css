@@ -14,7 +14,7 @@
 #left-div > #my-name{
     color: #24305e;
     font-size: 76px;
-    margin-top: 25vh;
+    margin-top: 30vh;
     margin-left: 10vw;
 }
 
@@ -38,7 +38,7 @@
 
 #right-div-sub{
     margin-right: 12vw;
-    margin-top: 5vh;
+    margin-top: 10vh;
 }
 
 .traits{
@@ -61,10 +61,68 @@
     border-radius: 50%;
 }
 
-
 #image-container img{
     width: 100%;
     height: auto;
     margin-top: -25px;
     object-fit: cover;
+}
+
+#skills-part{
+    min-height: 100vh;
+    color: #24305e;
+}
+
+#skills-part > h1{
+    text-align: center;
+    font-size: 60px;
+    margin: 0;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.skill-tile{
+    width: 26%;
+    margin-top: 150px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(150deg, #f8e9a1, #fdf5cc);
+    box-shadow: 2px 2px 5px 2px #242424;
+}
+
+.skill-img-container{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -75px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px dashed #24305e;
+}
+
+.skill-img-container > img{
+    width: 100%;
+    height: auto;
+}
+
+.skill-tile > h2{
+    margin-top: 100px;
+}
+
+.skill-tile > p{
+    text-align: justify;
+    padding: 24px;
+    color: #374785;
+
+}
+
+.footer-filler{
+    height: 50px;
 }
