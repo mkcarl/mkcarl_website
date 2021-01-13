@@ -3,6 +3,11 @@ body{
     margin: 0;
 }
 
+.body-main{
+    position: relative;
+    width: 100%;
+}
+
 .nav-bar{
     background-color:#f76c6c;
     position: sticky;
@@ -100,3 +105,51 @@ nav a {
 .nav-content:hover {
     max-height: 400px; 
 }
+
+/* @media only screen and (max-width: 600px) {
+    .nav-bar{
+        flex-direction: column;
+        height: fit-content;
+        padding: 0;
+        align-items: center;
+        position: relative;
+    }
+
+    #nav-logo{
+        display: inherit;
+        border-bottom: 2px solid;
+        width: 100%;
+        justify-content: center;
+    }
+
+    
+    #nav-buttons{
+        width: 100%;
+        line-height: 40px;
+        display: inherit;
+        justify-content: center;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav ul{ 
+        justify-content: center;
+        width: 100%;
+    }
+    nav li:hover{
+        background-color: inherit;
+    }
+    nav li>a {
+        display: inherit;
+        justify-content: center;
+        font-size: 1.15rem;
+        padding: 0 8px 0 8px;
+    }
+
+    .nav-content{
+        top: 125px;
+    }
+    
+} */

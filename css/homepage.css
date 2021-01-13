@@ -14,11 +14,6 @@
     font-weight: bold;
 }
 
-.body-main{
-    position: relative;
-    width: 100%;
-}
-
 .homepage-section{
     height: 100vh;
     display: flex;
@@ -231,43 +226,7 @@
 
 }
 
-@media only screen and (max-width: 600px) {
-    .nav-bar{
-        flex-direction: column;
-        height: fit-content;
-        padding: 0;
-        align-items: center;
-        position: relative;
-    }
-
-    #nav-logo{
-        display: inherit;
-        border-bottom: 2px solid;
-        width: 100%;
-        justify-content: center;
-    }
-    
-    #nav-buttons{
-        width: 100%;
-        line-height: 40px;
-        display: inherit;
-        justify-content: center;
-    }
-
-    nav {
-        width: 100%;
-    }
-
-    nav ul{ 
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-    }
-
-    nav a {
-        display: inherit;
-        justify-content: center;
-    }
+/* @media only screen and (max-width: 600px) {
     #introduction-content h1{
         font-size: 10vmax;
     }
@@ -319,4 +278,4 @@
         margin-bottom: 20px;
     
     }
-  }
+  } */
