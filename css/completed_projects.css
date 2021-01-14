@@ -35,7 +35,7 @@ header > h1{
 
 .project-tile{
     /* border: 1px solid black; */
-    margin-bottom: 80px;
+    /* margin-bottom: 50px; */
 }
 
 .project-img{
@@ -83,6 +83,18 @@ header > h1{
     font-size: 36px;
 }
 
+#project-webscraping{
+    padding-top: 100px;
+}
+
+#project-pendulum{
+    padding-top: 80px;
+}
+
 .project-desc > p{
     font-size: 22px;
+}
+
+.footer-filler{
+    height: 50px;
 }
