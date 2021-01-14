@@ -54,3 +54,7 @@ header > h1{
     max-width: 45%;
     margin: 5px;
 }
+
+.footer-filler{
+    height: 50px;
+}
