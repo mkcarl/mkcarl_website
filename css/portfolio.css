@@ -19,7 +19,7 @@ body{
 #left-div > #my-name{
     color: #24305e;
     font-size: 76px;
-    margin-top: 30vh;
+    margin-top: 20vh;
     margin-left: 10vw;
 }
 
@@ -27,7 +27,7 @@ body{
     color: #374785;
     font-size: 23px;
     text-align: justify;
-    width: 70%;
+    width: 85%;
     margin-left: 10vw;
 
 }
@@ -124,8 +124,37 @@ body{
 .skill-tile > p{
     text-align: justify;
     padding: 24px;
+    font-size: 20px;
     color: #374785;
+    line-height: 26px;
 
+}
+
+#skill-python{
+    height: 100%;
+    width: auto;
+    margin-left: -52px;
+}
+
+#skill-html{
+    height: 120%;
+    width: auto;
+    margin-left: -15px;
+    margin-top: -15px;
+}
+
+#skill-css{
+    height: 120%;
+    width: auto;
+    margin-left: -15px;
+    margin-top: -15px;    
+}
+
+#skill-discord{
+    height: 120%;
+    width: auto;
+    margin-left: -15px;
+    margin-top: -15px;   
 }
 
 .footer-filler{
