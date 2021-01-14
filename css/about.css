@@ -1,0 +1,27 @@
+body{
+    background-image: linear-gradient(-150deg, #a8d0e6, #33a3df);
+
+}
+
+#main{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#main-sub{
+    width: 40%;
+    margin-top: 25vh;
+}
+
+#main-sub > h1{
+    font-size: 90px;
+    color: #24305e;
+}
+
+#main-sub > p{
+    font-size: 24px;
+    color: #374785;
+}
